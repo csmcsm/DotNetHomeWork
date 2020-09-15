@@ -18,7 +18,7 @@ namespace Project1
 
             if (i < 20)
             {
-                outOne = new triangle(r.Next(100),
+                outOne = new Triangle(r.Next(100),
                     r.Next(100),
                     r.Next(100),
                     r.Next(100),
@@ -32,7 +32,7 @@ namespace Project1
             else if (i < 80)
             {
 
-                outOne = new rectangle(
+                outOne = new Rectangle(
                     r.Next(100),
                     r.Next(100));
 
